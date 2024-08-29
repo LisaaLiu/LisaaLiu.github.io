@@ -11,7 +11,7 @@ const WorkItem = ({ year, company, title, duration, details, isEven }) => {
         
         {/* Icon */}
         <div
-          className={`flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1  ${
+          className={`flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-secondary text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1  ${
             isEven ? "md:-translate-x-1/2" : "md:translate-x-1/2"
           }`}
         ></div>
@@ -19,8 +19,8 @@ const WorkItem = ({ year, company, title, duration, details, isEven }) => {
         {/* Card */}
         <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
           <p className="flex items-center justify-between space-x-2">
-            <span className="text-xl font-semibold text-[#001b5e]">{title}</span>
-            <span className="hidden md:block font-caveat text-sm text-indigo-500">{year}</span>
+            <span className="text-xl font-semibold text-primary">{title}</span>
+            <span className="hidden md:block font-caveat text-sm text-secondary">{year}</span>
           </p>
           <p className="text-lg font-normal text-stone-500 mb-1">{company}</p>
           <p className="my-2 text-base font-normal text-stone-500">{details}</p>
