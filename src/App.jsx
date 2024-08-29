@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useEffect } from 'react';
 import NavBar from './components/Navbar';
 import Main from './components/Main';
 import Work from './components/Work';
@@ -7,18 +7,17 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-      <div>
-        <NavBar/>
-        <Main/>
-        <AboutMe/>
-        <Work/>
-        <Projects/>
-        <Contact/>
-      </div>
-  )
+    <div>
+      <NavBar />
+      <Main />
+      <AboutMe />
+      <Work />
+      <Projects />
+      <Contact />
+    </div>
+  );
 }
 
-export default App
+export default App;
