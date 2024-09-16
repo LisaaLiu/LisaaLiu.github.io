@@ -9,44 +9,43 @@ import htmlLogo from 'programming-languages-logos/src/html/html.svg';
 
 const ProgrammingIcons = () => {
     return (
-        <div className="flex gap-5 flex-wrap py-4 justify-center items-center" >
-            <div className='rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+        <div className="flex gap-5 flex-wrap py-4 justify-center items-center">
+            <div className='flex flex-col justify-center items-center rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <img src={jsLogo} alt="JavaScript" width="50" />
-                <p className='text-center'>Javascript</p>
+                <p className='text-center'>JavaScript</p>
             </div>
-            <div className=' rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <div className='flex flex-col justify-center items-center rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <img src={tsLogo} alt="TypeScript" width="50" />
                 <p className='text-center'>TypeScript</p> 
             </div>
-            <div className=' rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <div className='flex flex-col justify-center items-center rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <img src={cLogo} alt="C" width="50" />
                 <p className='text-center'>C</p>
             </div>
-            <div className=' rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <div className='flex flex-col justify-center items-center rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <img src={cppLogo} alt="C++" width="50" />
                 <p className='text-center'>C++</p>
             </div>
-            <div className=' rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <div className='flex flex-col justify-center items-center rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <img src="/src/assets/sql-database-generic-svgrepo-com.svg" alt="SQL" width="50" />
                 <p className='text-center'>SQL</p>
             </div> 
-            <div className=' rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <div className='flex flex-col justify-center items-center rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <img src={javaLogo} alt="Java" width="50" />
                 <p className='text-center'>Java</p>
             </div>
-            <div className=' rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <div className='flex flex-col justify-center items-center rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <img src={pythonLogo} alt="Python" width="50" />
                 <p className='text-center'>Python</p>
             </div>
-            <div className=' rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <div className='flex flex-col justify-center items-center rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <img src={htmlLogo} alt="HTML" width="50" />
                 <p className='text-center'>HTML</p>
             </div>
-            <div className=' rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+            <div className='flex flex-col justify-center items-center rounded-full shadow-lg bg-other shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                 <img src="/src/assets/icons8-css.svg" alt="CSS" width="70" />
                 <p className='text-center'>CSS</p>
             </div>
-            
         </div>
     );
 };
